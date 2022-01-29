@@ -24,25 +24,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
     <script src="js/app.js"></script>
+    <style>
+        .bgimg1{
+            width: full;
+            height: full;
+            border: 3px solid #ccc;
+            background: url(img/bg.jpg) no-repeat center center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
+    <!--Navigiate Bar-->
+    <nav class="navbar navbar-default" role="navigation" bs-navbar>
+        <div class="container">
+            <div class="navbar-header">
+                <!--给导航栏添加相应特性,https://www.runoob.com/bootstrap/bootstrap-navbar.html-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <!--navigation first title-->
+            <a class="navbar-brand" href="">Reading</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://shichenghu.github.io/Shicheng-Hu.github.io">home<span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
     <!--News: The Second Part-->
     <div class="container">
         <div class="row">
             <!--新闻，占据8列，偏移2列，即：第3到第10列-->
-            <div class="col-md-12"> <!--the text at each column left offset 2 two columns in order to aligned with the "bio"-->
-                <h1>
-                    <b>Reading</b>
+            <div class="bgimg1"> <!--the text at each column left offset 2 two columns in order to aligned with the "bio""col-md-12"-->
+                </br></br>
+                <h1 align="center">
+                    <b>开卷有益</b>
                 </h1>
+                </br></br>
             </div>
         </div>
+        <div class="row">
+        </div>
+        <hr />
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-md-12"> <!--the text at each column left offset 2 two columns in order to aligned with the "bio"-->
                 <ul class="list-unstyle">
                     <li> <!--The first News-->
                         <h4>
-                            <strong>The Brave New World</strong>, <small>Aldous Leonard Huxley, 1932.</small>
+                            <b>The Brave New World</b>, <small>Aldous Leonard Huxley, 1932.</small>
                         </br> <!--br用来换行-->
                         <small>
                             <b>Keywords<b>: Utopia，Civilization. 
@@ -67,22 +106,23 @@
                     </li>
                     <li> <!--The Second News-->
                         <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
+                            <b>丰乳肥臀</b>, <small>莫言, 1995</small>
                         </br>
                         <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
+                            <b>Keywords<b>: 中国历史, 女性, 母亲. 
+                                <b>Time</b>: Jaun, 2022. 
+                                </br><b>Rate</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                                </br>
+                                <font color="blue">作者从恋乳癖的上官金童视角，描绘了山东高密东北乡上官家族的浮沉往事，以此纪念母亲在天之灵。“丰乳肥臀”代表的是母性生育的能力，表达的是作者对于母亲抚养的感激之情（莫言自己说的）。
+                                    恋乳癖可以解读为不能自立，上官金童几次断奶，却在遭遇挫折之后重新回到过去。所谓“断身体上的恋乳癖易，断心中的恋乳癖难！”
+                                </font>
+                                </br>
                         </small>
                         </h4>
                         <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
+                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="豆瓣书评">
                                 <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
+                                <a href='https://book.douban.com/subject/1010349/reviews' alt="豆瓣书评" target="_blank"><i class="fa fa-book"></i></a> 
                             </li>
                             <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
                                 <!--PDF Icom and Link-->
@@ -92,172 +132,22 @@
                     </li>
                     <li> <!--The Second News-->
                         <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
+                            <b>斯坦福大学人生设计课</b>, <small>Bill Burnett, Dave Evans, 2017.</small>
                         </br>
                         <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
+                            <b>Keywords<b>: 设计, 人生. 
+                                <b>Time</b>: Jaun, 2022. 
+                                </br><b>Rate</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                                </br>
+                                <font color="blue">在看！
+                                </font>
+                                </br>
                         </small>
                         </h4>
                         <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
+                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="豆瓣书评">
                                 <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li> <!--The Second News-->
-                        <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
-                        </br>
-                        <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
-                        </small>
-                        </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li> <!--The Second News-->
-                        <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
-                        </br>
-                        <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
-                        </small>
-                        </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li> <!--The Second News-->
-                        <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
-                        </br>
-                        <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
-                        </small>
-                        </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li> <!--The Second News-->
-                        <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
-                        </br>
-                        <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
-                        </small>
-                        </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li> <!--The Second News-->
-                        <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
-                        </br>
-                        <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
-                        </small>
-                        </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li> <!--The Second News-->
-                        <h4>
-                            <strong>Low Complexity SLM for OFDMA System with Implicit Side Information</strong>
-                        </br>
-                        <small>
-                            <b>Shicheng Hu<b>,
-                            Miao Yang,
-                            Kai Kang,
-                            Hua Qian
-                            </br>
-                            ICASSP 2021
-                            </br>
-                        </small>
-                        </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="Homepage">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="home page" target="_blank"><i class="fa fa-home"></i></a> 
+                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="豆瓣书评" target="_blank"><i class="fa fa-book"></i></a> 
                             </li>
                             <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
                                 <!--PDF Icom and Link-->
