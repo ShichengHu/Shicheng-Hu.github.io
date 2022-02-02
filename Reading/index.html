@@ -43,9 +43,8 @@
         while (testV < 3) { 
         if (!pass1) 
         history.go(-1); 
-        if (pass1 == "1234") { 
-        alert('Success!'); 
-        break; 
+        if (pass1 == "wdd1234") {
+        break; // alert('Success!'); 
         } 
         testV+=-1; 
         var pass1 = prompt('Wrong Password! Try Again:'); 
@@ -71,16 +70,20 @@
                     <span class="icon-bar"></span>
                 </button>
             <!--navigation first title-->
-            <a class="navbar-brand" href="">Reading</a>
+            <a class="navbar-brand" href="">Shicheng Hu</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="https://shichenghu.github.io/Shicheng-Hu.github.io">home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#"><big><span style="color:rgb(0, 183, 255);">Reading</span></big><span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Learning">Learning<span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://shichenghu.github.io/Shicheng-Hu.github.io/happy_time">Happy Time<span class="sr-only">(current)</span></a></li>
+                    <li><a href="resume.pdf">resume<span class="sr-only">(current)</span></a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
         </div>
     </nav>
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
     <!--News: The Second Part-->
     <div class="container">
         <div class="row">
@@ -97,43 +100,142 @@
         </div>
         <hr />
     </div>
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
     <div class="container">
         <div class="row">
-            <div class="col-md-12"> <!--the text at each column left offset 2 two columns in order to aligned with the "bio"-->
+            <div class="col-md-2">
+                <div class="sidebar-box gallery-list">
+                    <div class="design" id="leftcolumn">
+                        <i class="fa fa-list" aria-hidden="true"></i><span><b> Sorted by years</b></span>
+                        <ul class="list_unstyle">
+                            <li><a href="#2022">#2022</a></li> <!--https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/2022-->
+                            <li><a href="#2021">#2021</a></li>
+                            <li><a href="#2020">#2020</a></li>
+                            <li><a href="#2019">#2019</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10"> <!--the text at each column left offset 2 two columns in order to aligned with the "bio"-->
+                <!----------------------------------------------------------------------------2022---------------------------------------------------------------------->
+                <h2 id="2022">
+                    <b>2022</b>
+                </h2>
                 <ul class="list-unstyle">
-                    <li> <!--The first News-->
+                    <li> <!--1-->
                         <h4>
-                            <b>The Brave New World</b>, <small>Aldous Leonard Huxley, 1932.</small>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2022/BraveNewWorld.pdf"><b>《美丽新世界》</b></a>, <small>Aldous Leonard Huxley, 1932.</small>
                         </br> <!--br用来换行-->
                         <small>
-                            <b>Keywords<b>: Utopia，Civilization. 
-                            <b>Time</b>: Jaun, 2022. 
-                            </br><b>Rate</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            <b>外文名</b>: Brave New World. <b>译者</b>: 孙法理.
+                            </br>
+                            <b>关键字<b>: 乌托邦，文明. <b>完成时间</b>: Jaun, 2022. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
                             </br>
                             <font color="blue">《美丽新世界》题目名字来自莎士比亚的传奇剧《暴风雨》第五幕第一场中人类公主第一次见到海滩上生还人发出的感叹：“啊！美妙的新世界，有这么出色的人物。” 
-                                以此来赞美人类。而在此书中，作者在虚拟的未来中借“野蛮人”之口，对未来乌托邦世界的幸福生活表达自己的担忧---“人类被给予的自由意志只不过让他们在混沌与疯狂之间进行选择！”</font>
+                                以此来赞美人类。而在此书中，作者在虚拟的未来中借“野蛮人”之口，对乌托邦世界的幸福生活表达自己的担忧---“人类被给予的自由意志只不过让他们在混沌与疯狂之间进行选择！”</font>
                             </br>
                         </small>
                         </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="豆瓣书评">
-                                <!--Home Icom and Link-->
-                                <a href='https://book.douban.com/subject/1321789/reviews' alt="豆瓣书评" target="_blank"><i class="fa fa-book"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/BraveNewWorld.pdf' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
                     </li>
-                    <li> <!--The Second News-->
+                    <li> <!--2-->
                         <h4>
-                            <b>丰乳肥臀</b>, <small>莫言, 1995</small>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2022/CounsellingForToads.pdf"><b>《蛤蟆先生去看心理医生》</b></a>, <small>Robert de Board, 2020.</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名</b>: Counselling For Toads: A Psychological Adventure. <b>译者</b>: 陈赢.
+                            </br>
+                            <b>关键字<b>: 心理学,自救. <b>完成时间</b>: Feb, 2022. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。”
+                            </br> “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连信念和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--3-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2022/Standford.pdf"><b>《斯坦福大学人生设计课》</b></a>, <small>Bill Burnett & Dave Evans, 2017.</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名</b>: Counselling For Toads: A Psychological Adventure. <b>译者</b>: 周芳芳.
+                            </br>
+                            <b>关键字<b>: 设计,职业规划 <b>完成时间</b>: Feb, 2022. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">在看！
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--4-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2022/Standford.pdf"><b>《毛泽东选集2》</b></a>, <small>毛泽东.</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 抗日战争 <b>完成时间</b>: Feb, 2022. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">在看！
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--5-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2022/Standford.pdf"><b>《传习录》</b></a>, <small>王阳明</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 心学 <b>完成时间</b>: Feb, 2022. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">在看！
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                </ul>
+                <!--实现分隔行-->
+                <hr />
+                <!----------------------------------------------------------------------------2021---------------------------------------------------------------------->
+                <h2 id="2021">
+                    <b>2021</b>
+                </h2>
+                <ul class="list-unstyle">
+                    <li> <!--1-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2022/YuHua_XuSanGuan.pdf"><b>《许三观卖血记》</b></a>, <small>余华, 1995.</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 家庭. <b>完成时间</b>: Dec, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“卖血以前要多喝水，水喝多了身上的血就淡了，血淡了，你们想想，血是不是就多了？”
+                            </br>许三观这个时候就不哆嗦了，他两只手的手指敲着桌子说：“一盘炒猪肝，二两黄酒……” 说到这里，他的右手拿起来摇了两下，说：“黄酒给我温一温。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--2-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/MoYan_FengRuFeiTun.pdf"><b>《丰乳肥臀》</b></a>, <small>莫言, 1995</small>
                         </br>
                         <small>
-                            <b>Keywords<b>: 中国历史, 女性, 母亲. 
-                                <b>Time</b>: Jaun, 2022. 
-                                </br><b>Rate</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            <b>关键字<b>: 当代中国, 女性, 母亲. <b>完成时间</b>: Nov, 2021. 
+                                </br><b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
                                 </br>
                                 <font color="blue">作者从恋乳癖的上官金童视角，描绘了山东高密东北乡上官家族的浮沉往事，以此纪念母亲在天之灵。“丰乳肥臀”代表的是母性生育的能力，表达的是作者对于母亲抚养的感激之情（莫言自己说的）。
                                     恋乳癖可以解读为不能自立，上官金童几次断奶，却在遭遇挫折之后重新回到过去。所谓“断身体上的恋乳癖易，断心中的恋乳癖难！”
@@ -141,44 +243,348 @@
                                 </br>
                         </small>
                         </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="豆瓣书评">
-                                <!--Home Icom and Link-->
-                                <a href='https://book.douban.com/subject/1010349/reviews' alt="豆瓣书评" target="_blank"><i class="fa fa-book"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
                     </li>
-                    <li> <!--The Second News-->
+                    <li> <!--3-->
                         <h4>
-                            <b>斯坦福大学人生设计课</b>, <small>Bill Burnett, Dave Evans, 2017.</small>
-                        </br>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/MaoXuan1.pdf"><b>《毛泽东选集1》</b></a>, <small>毛泽东</small>
+                        </br> <!--br用来换行-->
                         <small>
-                            <b>Keywords<b>: 设计, 人生. 
-                                <b>Time</b>: Jaun, 2022. 
-                                </br><b>Rate</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
-                                </br>
-                                <font color="blue">在看！
-                                </font>
-                                </br>
+                            <b>关键字<b>: 历史,方法论,新民主主义革命 <b>完成时间</b>: Nov, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
                         </small>
                         </h4>
-                        <ul class="list-inline">
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title="豆瓣书评">
-                                <!--Home Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/document/9414599' alt="豆瓣书评" target="_blank"><i class="fa fa-book"></i></a> 
-                            </li>
-                            <li data-toggle="tooltip" data-placement="top" data-container="body" title=".pdf">
-                                <!--PDF Icom and Link-->
-                                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414599' target="_blank"><i class="fa fa-file-pdf-o"></i></a> 
-                            </li>
-                        </ul>
+                    </li>
+                    <li> <!--4-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《鼠疫》</b></a>, <small>Albert Camus, 1947</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名</b>: La Peste. <b>译者</b>: 李玉民.
+                            <b>关键字<b>: 虚构历史,灾难 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--5-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《兄弟》</b></a>, <small>余华, 1947</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 余华 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--6-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《货币战争》</b></a>, <small>宋鸿兵, 2017</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 经济学,小说 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--7-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《围城》</b></a>, <small>钱钟书, 1947</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 余华 <b>完成时间</b>: Janu, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--8-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《1984》</b></a>, <small>George Orwell, 1945</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名<b>: 1984. <b>译者</b>: 谢廷光. 
+                            <b>关键字<b>: 乌托邦,政治 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--9-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《动物农场》</b></a>, <small>George Orwell, 1945</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名<b>: Animal Farm. <b>译者</b>: 谢廷光. 
+                            <b>关键字<b>: 乌托邦,政治 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--10-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《活着》</b></a>, <small>余华, 1947</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 余华 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--11-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2021/ShuYi.pdf"><b>《小岛经济学》</b></a>, <small>余华, 1947</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 经济学 <b>完成时间</b>: Feb, 2021. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
                     </li>
                 </ul>
-                
+                <hr />
+                <!----------------------------------------------------------------------------2020---------------------------------------------------------------------->
+                <h2 id="2020">
+                    <b>2020</b>
+                </h2>
+                <ul class="list-unstyle">
+                    <li> <!--1-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/RenShengHaiHai.pdf"><b>《人生海海》</b></a>, <small>麦家, 1947</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 人生 <b>完成时间</b>: Dec, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--2-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/RenShengHaiHai.pdf"><b>《潜意识：心理学帮你发现未知的自己（第三版）》</b></a>, <small>耿兴永, 2016</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 心理学，潜意识 <b>完成时间</b>: Dec, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--3-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/YuQiuYu.pdf"><b>《借我一生》</b></a>, <small>余秋雨, 2016</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 文革,伤痕文学,随笔 <b>完成时间</b>: May, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--4-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/YuQiuYu.pdf"><b>《白鹿原》</b></a>, <small>陈忠实, 2016</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 渭河平原,历史,改革开放前 <b>完成时间</b>: April, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--5-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/Tess.pdf"><b>《苔丝》</b></a>, <small>Thomas Hardy, 1891</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名<b>: Tess. <b>译者</b>: 罗翠玉. 
+                            <b>关键字<b>: 女性,自由 <b>完成时间</b>: May, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--6-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/YuQiuYu.pdf"><b>《平凡的世界》</b></a>, <small>路遥, 2016</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 陕北,改革开放初,奋斗 <b>完成时间</b>: Feb, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--7-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/YuQiuYu.pdf"><b>《五代史演义》</b></a>, <small>蔡东藩, 1940</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 五代史,演义,蔡东藩 <b>完成时间</b>: Janu, 2020. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                </ul>
+                <hr />
+                <!----------------------------------------------------------------------------2019---------------------------------------------------------------------->
+                <h2 id="2019">
+                    <b>2019</b>
+                </h2>
+                <ul class="list-unstyle">
+                    <li> <!--1-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/RenShengHaiHai.pdf"><b>《枪炮,病菌与钢铁》</b></a>, <small>Jared Diamond, 2016</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名<b>: Guns, Germs, and Steel. <b>译者</b>: 谢廷光. 
+                            <b>关键字<b>: 历史,地理,科技,遗传学 <b>完成时间</b>: Nov, 2019. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--2-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/RenShengHaiHai.pdf"><b>《风之影》</b></a>, <small>Carlos Ruiz Zafón, 2001</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>外文名<b>: The Shadow of the Wind. <b>译者</b>: 范湲. 
+                            <b>关键字<b>: 冒险小说 <b>完成时间</b>: Dec, 2019. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--3-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/YuQiuYu.pdf"><b>《唐史演义》</b></a>, <small>蔡东藩, 1940</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 唐史,演义,蔡东藩 <b>完成时间</b>: Janu, 2019. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                    <li> <!--3-->
+                        <h4>
+                            <a href="https://shichenghu.github.io/Shicheng-Hu.github.io/Reading/Books/2020/YuQiuYu.pdf"><b>《天才在左，疯子在右》</b></a>, <small>高铭, 2010</small>
+                        </br> <!--br用来换行-->
+                        <small>
+                            <b>关键字<b>: 访谈,心理学，精神病人 <b>完成时间</b>: Dec, 2019. 
+                            </br>
+                            <b>评分</b>: <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i> <i class="fa fa-star green-color"></i>
+                            </br>
+                            <font color="blue">“如果我不相信每个人都有能力变得更好，我就不会做这份工作了。” “每个人的早年经历本质上都是不同的，所以每个人看到的都是一个不同的世界。有时候，人们看到的世界如此不同。连新年和预设都不尽相同，最严重的时候，
+                                这些人在之后的人生里只能经过流血冲突才能达成和解。”
+                            </font>
+                            </br>
+                        </small>
+                        </h4>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
